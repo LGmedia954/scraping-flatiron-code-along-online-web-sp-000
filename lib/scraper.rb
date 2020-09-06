@@ -31,7 +31,8 @@ class Scraper
       course.title = post.css().text
       course.schedule = post.css().text
       course.description = post.css.().text
-  end
+    end
+end
   
   def print_courses
     
