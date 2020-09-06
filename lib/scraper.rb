@@ -26,7 +26,8 @@ class Scraper
   end
   
   def make_courses
-    self.get_courses.each do |course|
+    self.get_courses.each do |post|
+      courses.each
     
   end
   
