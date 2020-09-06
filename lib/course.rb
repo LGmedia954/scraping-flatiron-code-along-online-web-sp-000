@@ -5,7 +5,7 @@ class Course
   @@all = []
   
   def self.all
-    @@all << self
+    @@all
   end
   
   
