@@ -34,7 +34,9 @@ class Scraper
   end
   
   def print_courses
-    self.make_courses.each do |post|
+    self.make_courses
+    Course.each do |course|
+      
       
   end
   
