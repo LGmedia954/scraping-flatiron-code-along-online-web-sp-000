@@ -4,10 +4,16 @@ class Course
   
   @@all = []
   
+  def initialize
+    @@all << self
+  end
+  
   def self.all
-    @@all << Course
     @@all
   end
+  
+  def.self.reset_all
+  
   
   
   
