@@ -22,7 +22,7 @@ class Scraper
   
   
   def get_courses
-    doc.css(".headline-26OIBN").text
+    doc.css(".course_grid").text
   end
   
   def make_courses
